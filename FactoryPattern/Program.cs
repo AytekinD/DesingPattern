@@ -14,7 +14,7 @@
             iosApp.Platform();
             huaweiApp.Platform();
 
-
+            // refactoryguru        dofactory sitelrine bakabiliriz.
 
         }
     }
