@@ -5,17 +5,21 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{F213BDE1-8A29-43CE-971A-008374D81E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{A7ED7EAB-9244-4F5C-A04A-9935392878E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{A7ED7EAB-9244-4F5C-A04A-9935392878E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{CB450513-D07D-43D3-A84B-EA9FA93F7537}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern", "CreationalPattern", "{05E06FB8-EC6B-499C-910D-FB2F45883BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{7BC5C06D-99DC-4DCE-992D-4138C7825377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{7BC5C06D-99DC-4DCE-992D-4138C7825377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{41530B2F-C6C2-4732-B993-A47E372FB1ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{41530B2F-C6C2-4732-B993-A47E372FB1ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservablePattern", "ObservablePattern\ObservablePattern.csproj", "{E2105910-70D0-4ACD-9D69-2799661971D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObservablePattern", "ObservablePattern\ObservablePattern.csproj", "{E2105910-70D0-4ACD-9D69-2799661971D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Pattern", "Structural Pattern", "{864DE135-0A2D-4B3C-B018-BA8CC484E9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{FE20D985-C236-43A5-ABEB-76E8B0B9C966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{E2105910-70D0-4ACD-9D69-2799661971D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2105910-70D0-4ACD-9D69-2799661971D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2105910-70D0-4ACD-9D69-2799661971D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE20D985-C236-43A5-ABEB-76E8B0B9C966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE20D985-C236-43A5-ABEB-76E8B0B9C966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE20D985-C236-43A5-ABEB-76E8B0B9C966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE20D985-C236-43A5-ABEB-76E8B0B9C966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{7BC5C06D-99DC-4DCE-992D-4138C7825377} = {CB450513-D07D-43D3-A84B-EA9FA93F7537}
 		{41530B2F-C6C2-4732-B993-A47E372FB1ED} = {CB450513-D07D-43D3-A84B-EA9FA93F7537}
 		{E2105910-70D0-4ACD-9D69-2799661971D1} = {CB450513-D07D-43D3-A84B-EA9FA93F7537}
+		{FE20D985-C236-43A5-ABEB-76E8B0B9C966} = {864DE135-0A2D-4B3C-B018-BA8CC484E9FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD7D8A24-A881-4B53-BB4E-C6F36A5E51C1}
